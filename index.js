@@ -1,4 +1,4 @@
-// define our recipes object to receive content
+// define our empty recipes object to receive content
 var recipes = {}
 
 function updateObjectWithKeyAndValue(object, key, value){
