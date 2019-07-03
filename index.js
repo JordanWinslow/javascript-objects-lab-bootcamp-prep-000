@@ -1,3 +1,7 @@
 // define our recipes object to receive content
 recipes = new Object()
-function
+
+function updateObjectWithKeyAndValue(object, key, value){
+  object[key] = value
+  return object
+}
