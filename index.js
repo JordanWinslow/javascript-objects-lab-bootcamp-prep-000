@@ -8,3 +8,7 @@ function updateObjectWithKeyAndValue(object, key, value){
   
   The first value of Object.assign() is the target object that gets modified, which is why we are sending it a blank object "{}" instead of our variable "object" */
 }
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
+  object[key] = value
+  return object
+}
