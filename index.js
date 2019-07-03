@@ -1,5 +1,5 @@
 // define our recipes object to receive content
-var recipes = new Object()
+var recipes = {}
 
 function updateObjectWithKeyAndValue(object, key, value){
   let updatedRecipe = Object.assign({}, {[key]: [value]})
